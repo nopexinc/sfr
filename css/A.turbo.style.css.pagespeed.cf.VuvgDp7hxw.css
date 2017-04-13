@@ -21452,7 +21452,9 @@ h1.rq-title {
 .rq-subtitle.breadcrumb li {
     font-weight: 500
 }
-
+.rq-subtitle.breadcrumb li animation: {
+    color: #ffffff
+}
 .rq-subtitle.breadcrumb.secondary li:before {
     content: "\35";
     font-family: ElegantIcons;
@@ -23193,6 +23195,10 @@ textarea.comment-input:-ms-input-placeholder {
 .inner-page-banner .rq-title-container .breadcrumb.rq-subtitle {
     margin: 0;
     text-align: left
+}
+
+.inner-page-banner .rq-title-container .breadcrumb.rq-subtitle a {
+    color: #fff
 }
 
 .inner-page-banner .rq-title-container .breadcrumb.rq-subtitle li a:hover,
